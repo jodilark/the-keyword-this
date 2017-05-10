@@ -42,7 +42,7 @@
     }
 
 //Now, invoke the getUsername method and verify you got the username of the object and not anything else.
-user.getUserName()
+user.getUsername()
 
 //Next Problem
 
@@ -85,8 +85,8 @@ var getYear = function(){
 
 //Note(no tests)
   //Code Here
-prius.getYear()
-mustang.getYear()
+var prius = getYear.call(Car)
+var mustang = getYear.call(Car)
 
 //New Problem
 
